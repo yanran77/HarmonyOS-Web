@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        h1{
+            text-align: center;
+        }
+        .piclist{
+           overflow: hidden; 
+            height: 425px;
+            width: 840px;
+            margin: 0 auto;
+        }
+        .piclist .pic{
+            height: 280px;
+            width: 280px;
+            float: left;
+            margin: 0 auto;
+            position: relative;
+        }
+        .piclist .pic img{
+            width: 260px;
+            height: 260px;
+            margin: 10px;
+            background-color: gainsboro;
+        }
+        .piclist .pic .title{
+            height: 20px;
+            width: 105px;
+            background-color: burlywood;
+            text-align: center;
+            color: #FFF;
+            font-size: 14px;
+            border-radius: 10px 10px 10px 0;
+            float: left;
+            bottom: 10px;
+            left: 10px;
+            position:absolute;
+            
+        }
+        .piclist .pic p{
+            text-align: center;
+        }
+        .piclist .pic a{
+            position: relative;
+            font-size: 17px;
+            text-decoration: none;
+        }
+        .piclist .pic a:hover{
+            text-decoration: underline;
+        }
+        .piclist .pic .title2{
+            color: darkgray;
+            font-size: 14px;
+        }
+        .piclist .pic .price{
+            width: 100px;
+            height: 25px;
+            color: #FFF;
+            background-color: #000;
+            border-radius: 10px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>HarmonyOS 智慧生活新体验</h1>
+    <div class="piclist">
+       <div class="pic">
+           <img src="images/hm1.png" alt="">
+           <span class="title">限时直降30元</span>
+           <p><a href="">HUAWEI Mate 40 Pro 4G版</a></p>
+           <p class="title2">跃 见 非 凡</p>
+           <p class="price">￥6569</p>
+       </div>
+         <div class="pic">
+          <img src="images/hm2.png" alt="">
+           <span class="title">最高省100</span>
+           <p><a href="">HUAWEI MatePad 11</a></p>
+           <p class="title2">120Hz高刷全面屏</p>
+           <p class="price">￥2399 起</p>
+       </div>
+        <div class="pic">
+          <img src="images/hm3.png" alt="">
+           <span class="title">最高特惠80元</span>
+           <p><a href="">HUAWEI FreeBuds 4</a></p>
+           <p class="title2">半开放主动降噪</p>
+           <p class="price">￥919</p>
+       </div>
+    </div>
+</body>
+</html>
